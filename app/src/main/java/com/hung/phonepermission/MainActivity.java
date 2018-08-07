@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             askForPermissions(new String[]{
                             Manifest.permission.WRITE_EXTERNAL_STORAGE,
                             Manifest.permission.READ_EXTERNAL_STORAGE,
-                            Manifest.permission.READ_LOGS,
+//                            Manifest.permission.READ_LOGS,
                             Manifest.permission.READ_CONTACTS,
                             Manifest.permission.CAMERA,
                             Manifest.permission.SEND_SMS,
