@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
                             Manifest.permission.INTERNET
                     },//for both GPS and Network Provider
                     REQUEST_PERMISSIONS_CODE);
-
+            //Manifest.permission.READ_LOGS => chỉ ránh cho System App, vì thế PackageManager.PERMISSION_GRANTED = fail
+            // nếu check và request Permission này sẽ tạo ra vòng lặp ở MainThread chiếm dụng Mainthread => Click buttons not working
 
         }
     }
